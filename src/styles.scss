@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 body{
     border-left: 2px solid orange;
     border-right: 2px solid orange;
+=======
+//libs
+@import './styles/lib/variables.scss';
+
+//mixins
+
+//components
+@import './styles/components/navbar/navbar.scss';
+@import './styles/components/searchbar/searchbar.scss';
+@import './styles/components/header/header.scss';
+
+
+
+//global
+
+body{
+    margin: 0;
+>>>>>>> 444af0bcfcb8ff06da84090d5b3432dfd4d04ac2
 }
