@@ -23,3 +23,53 @@ button {
     font-size: 16px;
   
   }
+
+
+nav{
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  background-color: $bg-color;
+  position: fixed;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-bottom: 50px;
+  z-index: 2;
+  top: 0;
+  ul {
+      text-align: center;
+      list-style-type: none;
+      list-style-type: none;
+      padding: 0;
+      li {
+        padding: 0;
+        display: inline;
+        font-family: $font-stack;
+        //font-size: 17px;
+        a {
+          color: $font-color;
+          text-decoration: none;
+          font-size: 2vh;
+          padding: 0 3vh 0 3vh;
+          &:hover {
+            background-color: $green;
+            color: $bg-color;
+            width: auto;
+            border-radius: 20px;
+          }
+        }
+      }
+  }
+}
+
+.list{
+  display: inline-block;
+}
+
+.nav_option{
+  display: inline-block;
+}
+
+.nav_block{
+    margin-bottom: 10px;
+}

@@ -8,6 +8,7 @@ import { LoginComponent } from './views/login/login.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { SearchbarComponent } from './Components/searchbar/searchbar.component';
 import { HeaderComponent } from './Components/header/header.component';
+import { AuthformComponent } from './Components/authform/authform.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HeaderComponent } from './Components/header/header.component';
     NavbarComponent,
     SearchbarComponent,
     HeaderComponent,
+    AuthformComponent,
   ],
   imports: [
     BrowserModule,
