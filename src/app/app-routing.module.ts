@@ -17,14 +17,11 @@ const routes: Routes = [
             return m.HomeModule;
           }),
       },
-      {
-        path:'login',
-        loadChildren: () => import('./views/login/login.module').then(function (m) {
-            return m.LoginModule;
-          }),
-      }
     ],
-  }
+  },
+  {path:'login', loadChildren: () => import('./views/home/home.module').then(function (m) {return m.HomeModule;})},
+
+
 
 ];
 
