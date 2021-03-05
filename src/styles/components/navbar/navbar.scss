@@ -7,15 +7,14 @@ nav{
   overflow: hidden;
   background-color: $bg-color;
   position: fixed;
-  margin-bottom: 40px;
   padding-top: auto;
   padding-bottom: auto;
+  z-index: 2;
   top: 0;
   ul {
       text-align: center;
       list-style-type: none;
       list-style-type: none;
-      margin-top: 1.2vh;
       padding: 0;
       li {
         display: inline;
@@ -33,3 +32,14 @@ nav{
       }
   }
 }
+
+.list{
+  display: inline-block;
+}
+
+.search{
+  display: inline-block;
+  margin-left: 55%;
+}
+
+

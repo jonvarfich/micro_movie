@@ -1,0 +1,16 @@
+.home{
+
+    display: flex;
+
+}
+
+.homebody{
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    display: block;
+    position: fixed;
+    top: 5vh;
+    padding-left: 40%;
+    padding-right: 40%;
+}
