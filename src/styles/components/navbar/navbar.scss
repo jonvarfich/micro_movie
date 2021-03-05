@@ -1,9 +1,8 @@
 @import '../../lib/variables.scss';
 
 nav{
-  display: block;
+  display: inline-block;
   width: 100%;
-  max-height: 5vh;
   overflow: hidden;
   background-color: $bg-color;
   position: fixed;
@@ -17,16 +16,17 @@ nav{
       list-style-type: none;
       padding: 0;
       li {
+        padding: 0;
         display: inline;
-        font-family: "Fira Sans", sans-serif;
-        font-size: 17px;
+        font-family: $font-stack;
+        //font-size: 17px;
         a {
           color: $font-color;
           text-decoration: none;
           font-size: 2vh;
           padding: 0 3vh 0 3vh;
           &:hover {
-            background-color: $bg-color;
+            background-color: $green;
           }
         }
       }
@@ -37,9 +37,7 @@ nav{
   display: inline-block;
 }
 
-.search{
+.nav_option{
   display: inline-block;
-  margin-left: 55%;
 }
-
 

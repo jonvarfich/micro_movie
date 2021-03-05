@@ -1,0 +1,25 @@
+@import '../../../styles/lib/variables.scss';
+
+.right_side{
+
+    display: inline-flex;
+    position: relative;
+    left: 40%;
+    margin-right:0;
+
+}
+
+button {
+    display: inline-block;
+    height: 3.5vh;
+    margin: 0 2vh 0 2vh;
+    border: none;
+    background-color: $green;
+    font-size: 18px;
+    font-family: $font-stack;
+    font-weight: bolder;
+    color: $bg-color;
+    padding: 0 13px;
+    font-size: 16px;
+  
+  }

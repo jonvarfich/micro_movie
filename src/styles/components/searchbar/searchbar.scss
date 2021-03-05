@@ -2,11 +2,9 @@
 
 .inputbutton {
     display: flex;
-    border-right: none;
-    border:none;
-    //border-color: $font-color;
     width: 12vw;
-    height: 45px;
+    height: 3.5vh;
+    margin: 0 2vh 0 2vh;
     background-color: $bg-color;
     align-self: center;
   
@@ -16,18 +14,16 @@
       padding: 0 20px;
       font-family: $font-stack;
       font-size: 18px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
   
       &::placeholder {
         font-size: 18px;
         font-family: $font-stack;
-        color: $font-color
+        color: $green;
       }
     }
 }
 
-button {
+.search_button {
   display: block;
   border: none;
   background-color: $green;
@@ -37,7 +33,6 @@ button {
   color: $bg-color;
   padding: 0 13px;
   font-size: 16px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+
 }
 
