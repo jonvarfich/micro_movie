@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+  apiKey: "b7efb9ef15419744277f81e00d5458ad",
+  authDomain: "micro-movie.firebaseapp.com",
+  databaseURL: "https://micro-movie-default-rtdb.firebaseio.com/",
+  projectId: "micro-movie",
+  storageBucket: "gs://micro-movie.appspot.com",
+    }
+  
 };
 
 /*
