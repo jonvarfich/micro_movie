@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeRoutingModule} from './login-routing.module'
+import { HomeRoutingModule } from './home-routing.module';
+
+
 
 
 @NgModule({
@@ -10,4 +12,4 @@ import { HomeRoutingModule} from './login-routing.module'
     HomeRoutingModule
   ]
 })
-export class LoginModule { }
+export class HomeModule { }

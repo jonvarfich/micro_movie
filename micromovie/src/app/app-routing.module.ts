@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './views/login/login.component';
 
 const routes: Routes = [
-
   {
     path:'',
     redirectTo:'/home',
@@ -14,16 +12,19 @@ const routes: Routes = [
     children: [
       {
         path:'home',
-        loadChildren: () => import('./views/home/home.module').then(function (m) {
+        loadChildren: () => import('./auth/home/home.module').then(function (m) {
             return m.HomeModule;
           }),
       },
     ],
   },
-  
-  {path:'login', component:LoginComponent},
 
-
+  {
+        path:'login',
+        loadChildren: () => import('./auth/login/login.module').then(function (m) {
+            return m.LoginModule;
+          }),
+  },
 
 ];
 

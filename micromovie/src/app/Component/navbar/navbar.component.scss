@@ -1,4 +1,4 @@
-@import '../../../styles/lib/variables.scss';
+@import '../../styles/variables.scss';
 
 .right_side{
 
@@ -22,8 +22,7 @@ button {
     padding: 0 13px;
     font-size: 16px;
   
-  }
-
+}
 
 nav{
   display: inline-block;
@@ -50,7 +49,7 @@ nav{
           color: $font-color;
           text-decoration: none;
           font-size: 2vh;
-          padding: 0 3vh 0 3vh;
+          padding: 0 0vh 0 3vh;
           &:hover {
             background-color: $green;
             color: $bg-color;
