@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+//libs
+@import './styles/lib/variables.scss';
+
+//mixins
+
+//components
+@import './styles/components/navbar/navbar.scss';
+
+
+//global
+
+body{
+    margin: 0;
+}
