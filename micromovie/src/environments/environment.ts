@@ -4,7 +4,11 @@
 
 export const environment = {
   production: false,
+<<<<<<< HEAD
+    firebaseConfig : {
+=======
   firebaseConfig : {
+>>>>>>> 2b809f7a718aec4f39335822d906d1477529da12
     apiKey: "AIzaSyDoAl97nWO9oehFLKZOsyhD5IlaBbN5gWk",
     authDomain: "micromovie-b923a.firebaseapp.com",
     databaseURL: "https://micromovie-b923a-default-rtdb.firebaseio.com",
