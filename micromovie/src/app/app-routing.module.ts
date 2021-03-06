@@ -7,6 +7,7 @@ const routes: Routes = [
     redirectTo:'/home',
     pathMatch:'full',
   },
+  
   {
     path:'',
     children: [
@@ -19,12 +20,14 @@ const routes: Routes = [
     ],
   },
 
-  {
-        path:'login',
-        loadChildren: () => import('./auth/login/login.module').then(function (m) {
-            return m.LoginModule;
-          }),
-  },
+  {path:'home',loadChildren: () => import('./auth/home/home.module').then(function (m) {return m.HomeModule;})},
+
+  {path:'login',loadChildren: () => import('./auth/login/login.module').then(function (m) {return m.LoginModule;})},
+  
+  {path:'register',loadChildren: () => import('./auth/register/register.module').then(function (m) {return m.RegisterModule;})},
+
+  {path:'movies',loadChildren: () => import('./auth/movies/movies.module').then(function (m) {return m.MoviesModule;})},
+
 
 ];
 

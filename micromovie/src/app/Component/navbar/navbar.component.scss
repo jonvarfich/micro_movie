@@ -6,6 +6,9 @@
     position: relative;
     left: 40%;
     margin-right:0;
+}
+
+input{
 
 }
 
@@ -21,17 +24,15 @@ button {
     color: $bg-color;
     padding: 0 13px;
     font-size: 16px;
-  
 }
 
 nav{
-  display: inline-block;
+  display: flex;
   width: 100%;
   overflow: hidden;
   background-color: $bg-color;
   position: fixed;
   padding-top: auto;
-  padding-bottom: auto;
   margin-bottom: 50px;
   z-index: 2;
   top: 0;
@@ -42,22 +43,20 @@ nav{
       padding: 0;
       li {
         padding: 0;
-        display: inline;
+        display: inline-block;
         font-family: $font-stack;
-        //font-size: 17px;
         a {
-          color: $font-color;
-          text-decoration: none;
-          font-size: 2vh;
-          padding: 0 0vh 0 3vh;
-          &:hover {
-            background-color: $green;
-            color: $bg-color;
-            width: auto;
-            border-radius: 20px;
-          }
+            text-align: center;
+            color: $font-color;
+            text-decoration: none;
+            font-size: 2vh;
+            padding: 0 0vh 0 3vh;
+            &:hover {
+                background-color: $green;
+                color: $bg-color;
+            }
         }
-      }
+    }
   }
 }
 
@@ -71,4 +70,21 @@ nav{
 
 .nav_block{
     margin-bottom: 10px;
+}
+
+  
+.input {
+    display: inline-block;
+    width: auto;
+    height: 3vh;
+    flex: 1;
+    padding: 0 20px;
+    font-family: $font-stack;
+    font-size: 18px;
+
+    &::placeholder {
+    font-size: 18px;
+    font-family: $font-stack;
+    color: $green;
+    }
 }
